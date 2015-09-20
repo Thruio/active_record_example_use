@@ -1,0 +1,19 @@
+{
+    "name": "geusebio/example_for_walfgang",
+    "authors": [
+        {
+            "name": "Matthew Baggett",
+            "email": "matthew@baggett.me"
+        }
+    ],
+    "require": {
+        "thru.io/active_record": "dev-master",
+        "fzaninotto/faker": "1.5.*@dev",
+        "raveren/kint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src"
+        }
+    }
+}
